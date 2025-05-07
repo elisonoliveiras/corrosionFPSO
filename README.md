@@ -1,5 +1,7 @@
 # Projeto de Previsão de Corrosão em FPSO
 
+Elison Farias Olveira - UFRJ/COPPE - elisonmartelo@gmail.com - 2025 
+
 Este projeto implementa um sistema de previsão de corrosão para FPSOs (Floating Production Storage and Offloading) utilizando ML.NET. O sistema é capaz de prever dois parâmetros de corrosão (C1 e C2) com base em características estruturais e operacionais do FPSO.
 
 ## Estrutura do Projeto
