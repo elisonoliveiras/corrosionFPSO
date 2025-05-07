@@ -2,7 +2,7 @@
 
 Elison Farias Olveira - UFRJ/COPPE - elisonmartelo@gmail.com - 2025 
 
-Este projeto implementa um sistema de previsão de corrosão para FPSOs (Floating Production Storage and Offloading) utilizando ML.NET. O sistema é capaz de prever dois parâmetros de corrosão (C1 e C2) com base em características estruturais e operacionais do FPSO.
+Este projeto implementa um sistema de previsão de corrosão para FPSOs (Floating Production Storage and Offloading) utilizando Python.NET e Tensorflow / Keras. O sistema é capaz de prever dois parâmetros de corrosão (C1 e C2) com base em características estruturais e operacionais do FPSO.
 
 ## Estrutura do Projeto
 
@@ -22,6 +22,8 @@ O projeto está organizado da seguinte forma:
 ## Requisitos
 
 - .NET 9.0 ou superior
+- Python 3.9 ou superior
+- Baixar bibliotecas conforme requirements.txt
 - Arquivos de entrada no formato CSV com separador ';'
 - Valores decimais usando vírgula como separador
 
@@ -55,7 +57,7 @@ O projeto está organizado da seguinte forma:
    - Separar os dados em treino, validação e teste
    - Treinar os modelos C1 e C2
    - Salvar as métricas em `metricas_treinamento.csv`
-   - Salvar os modelos em `model_c1.zip` e `model_c2.zip`
+   - Salvar os modelos na pasta saved model.
 
 3. Para fazer previsões:
    ```
